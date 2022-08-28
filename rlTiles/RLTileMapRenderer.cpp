@@ -6,7 +6,7 @@
 *
 *   LICENSE: MIT
 *
-*   Copyright (c) 2020 Jeffery Myers
+*   Copyright (c) 2022 Jeffery Myers
 *
 *   Permission is hereby granted, free of charge, to any person obtaining a copy
 *   of this software and associated documentation files (the "Software"), to deal
@@ -28,7 +28,7 @@
 *
 **********************************************************************************************/
 
-#include "RLTileMapRenderer.h"
+#include "rlTileMapRenderer.h"
 
 Vector2 GetDisplayLocation(int x, int y, int TileWidth, int TileHeight, RLTiledMapTypes mapType)
 {

@@ -6,7 +6,7 @@
 *
 *   LICENSE: MIT
 *
-*   Copyright (c) 2020 Jeffery Myers
+*   Copyright (c) 2022 Jeffery Myers
 *
 *   Permission is hereby granted, free of charge, to any person obtaining a copy
 *   of this software and associated documentation files (the "Software"), to deal
@@ -29,10 +29,9 @@
 **********************************************************************************************/
 
 
-#ifndef RLTILERENDER_H
-#define RLTILERENDER_H
+#pragma once
 
-#include "RLTileMap.h"
+#include "rlTileMap.h"
 
 typedef struct  RLRenderTile
 {
@@ -68,5 +67,3 @@ protected:
 
     Rectangle CurrentViewRect = { 0,0,0,0 };
 };
-
-#endif //RLTILERENDER_H

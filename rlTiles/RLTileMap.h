@@ -6,7 +6,7 @@
 *
 *   LICENSE: MIT
 *
-*   Copyright (c) 2020 Jeffery Myers
+*   Copyright (c) 2022 Jeffery Myers
 *
 *   Permission is hereby granted, free of charge, to any person obtaining a copy
 *   of this software and associated documentation files (the "Software"), to deal
@@ -29,8 +29,7 @@
 **********************************************************************************************/
 
 
-#ifndef RLTILEMAP_H
-#define RLTILEMAP_H
+#pragma once
 
 #include "raylib.h"
 #include "raymath.h"
@@ -102,4 +101,3 @@ public:
 bool RLReadTileMap(const std::string& filename, RLTileMap &map);
 bool RLReadTileMapFromMemory(void* buffer, size_t bufferSize, RLTileMap& map);
 
-#endif //RLTILEMAP_H
